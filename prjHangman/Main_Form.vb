@@ -37,7 +37,7 @@ Public Class Main_Form
         If totnumatt <= 20 Then
             For Each guess In totnumatt.ToString()
 
-                txtUsedLetters.Text = ArrayList.ReadOnly(arrLettersGuessed).ToString()
+                txtUsedLetters.Text = arrLettersGuessed(count).ToString()
                 lblUsedLetters.Text = arrLettersGuessed.Item(0).ToString()
 
 
